@@ -10,7 +10,6 @@
 		<classes>
 			<class name="listeners.TestNGListenersTest" />
 			<class name="listeners.TestNGListenersTest2" />
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
