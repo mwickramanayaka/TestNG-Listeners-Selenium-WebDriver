@@ -1,5 +1,7 @@
 package listeners_2;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -27,7 +29,7 @@ public class LoginTest {
 		driver.get("https://www.daraz.lk/#");
 		
 		String actualTitle = driver.getTitle();
-		Assert.assertEquals(actualTitle, expectedTitledaraz);
+		AssertJUnit.assertEquals(actualTitle, expectedTitledaraz);
 		
 		driver.findElement(By.xpath("//*[@id=\"q\"]")).sendKeys("Mobile");
 		driver.findElement(By.xpath("//*[@id=\"topActionHeader\"]/div/div[2]/div/div[2]/form/div/div[2]/button")).sendKeys(Keys.RETURN);	
@@ -47,7 +49,7 @@ public class LoginTest {
 	    driver.get("https://www.ebay.com");
 	    
 	    String actualTitle = driver.getTitle();
-	    Assert.assertEquals(actualTitle, expectedTitleebay);
+	    AssertJUnit.assertEquals(actualTitle, expectedTitleebay);
 	    
 	    driver.findElement(By.name("_nkw")).sendKeys("Mobile");
 	    driver.findElement(By.id("gh-btn")).sendKeys(Keys.RETURN);
@@ -65,7 +67,7 @@ public class LoginTest {
 	@Test
 	public void test4() {
 		System.out.println("I am inside Test4");
-		Assert.assertTrue(false);
+		AssertJUnit.assertTrue(false);
 	}
 
 }

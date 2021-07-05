@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="4" failed="2" skipped="2">
+<testng-results ignored="0" total="4" passed="2" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-29T16:18:58 IST" name="Suite" finished-at="2021-05-29T16:21:09 IST" duration-ms="131932">
+  <suite started-at="2021-07-05T23:10:35 IST" name="TestNGListenerSuite" finished-at="2021-07-05T23:11:01 IST" duration-ms="26806">
     <groups>
     </groups>
-    <test started-at="2021-05-29T16:18:58 IST" name="Test" finished-at="2021-05-29T16:21:09 IST" duration-ms="131932">
-      <class name="listeners.TestNGListenersTest">
-        <test-method signature="test1()[pri:0, instance:listeners.TestNGListenersTest@5be6e01c]" started-at="2021-05-29T16:18:58 IST" name="test1" finished-at="2021-05-29T16:19:47 IST" duration-ms="49594" status="PASS">
+    <test started-at="2021-07-05T23:10:35 IST" name="LoginTest" finished-at="2021-07-05T23:11:01 IST" duration-ms="26806">
+      <class name="listeners_2.LoginTest">
+        <test-method signature="test1()[pri:0, instance:listeners_2.LoginTest@7c0c77c7]" started-at="2021-07-05T23:10:35 IST" name="test1" finished-at="2021-07-05T23:10:52 IST" duration-ms="17253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:listeners.TestNGListenersTest@5be6e01c]" started-at="2021-05-29T16:19:47 IST" name="test2" finished-at="2021-05-29T16:20:05 IST" duration-ms="17792" status="PASS">
+        <test-method signature="test2()[pri:0, instance:listeners_2.LoginTest@7c0c77c7]" started-at="2021-07-05T23:10:52 IST" name="test2" finished-at="2021-07-05T23:11:01 IST" duration-ms="9472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:listeners.TestNGListenersTest@5be6e01c]" started-at="2021-05-29T16:20:05 IST" name="test3" finished-at="2021-05-29T16:20:05 IST" duration-ms="1" status="SKIP">
+        <test-method signature="test3()[pri:0, instance:listeners_2.LoginTest@7c0c77c7]" started-at="2021-07-05T23:11:01 IST" name="test3" finished-at="2021-07-05T23:11:01 IST" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[TestSkipped]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: TestSkipped
-at listeners.TestNGListenersTest.test3(TestNGListenersTest.java:62)
+at listeners_2.LoginTest.test3(LoginTest.java:64)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,18 +57,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test4()[pri:0, instance:listeners.TestNGListenersTest@5be6e01c]" started-at="2021-05-29T16:20:05 IST" name="test4" finished-at="2021-05-29T16:20:05 IST" duration-ms="5" status="FAIL">
+        <test-method signature="test4()[pri:0, instance:listeners_2.LoginTest@7c0c77c7]" started-at="2021-07-05T23:11:01 IST" name="test4" finished-at="2021-07-05T23:11:01 IST" duration-ms="2" status="FAIL">
           <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at listeners.TestNGListenersTest.test4(TestNGListenersTest.java:68)
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at listeners_2.LoginTest.test4(LoginTest.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -103,105 +99,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-      </class> <!-- listeners.TestNGListenersTest -->
-      <class name="listeners.TestNGListenersTest2">
-        <test-method signature="test5()[pri:0, instance:listeners.TestNGListenersTest2@3d680b5a]" started-at="2021-05-29T16:20:05 IST" name="test5" finished-at="2021-05-29T16:20:54 IST" duration-ms="48566" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test5 -->
-        <test-method signature="test6()[pri:0, instance:listeners.TestNGListenersTest2@3d680b5a]" started-at="2021-05-29T16:20:54 IST" name="test6" finished-at="2021-05-29T16:21:09 IST" duration-ms="15857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test6 -->
-        <test-method signature="test7()[pri:0, instance:listeners.TestNGListenersTest2@3d680b5a]" started-at="2021-05-29T16:21:09 IST" name="test7" finished-at="2021-05-29T16:21:09 IST" duration-ms="1" status="SKIP">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[TestSkipped]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: TestSkipped
-at listeners.TestNGListenersTest2.test7(TestNGListenersTest2.java:62)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test7 -->
-        <test-method signature="test8()[pri:0, instance:listeners.TestNGListenersTest2@3d680b5a]" started-at="2021-05-29T16:21:09 IST" name="test8" finished-at="2021-05-29T16:21:09 IST" duration-ms="3" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at listeners.TestNGListenersTest2.test8(TestNGListenersTest2.java:68)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test8 -->
-      </class> <!-- listeners.TestNGListenersTest2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- listeners_2.LoginTest -->
+    </test> <!-- LoginTest -->
+  </suite> <!-- TestNGListenerSuite -->
 </testng-results>
