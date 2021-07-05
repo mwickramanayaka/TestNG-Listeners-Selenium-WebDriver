@@ -5,7 +5,7 @@
     <classes>
       <class name="listeners.TestNGListenersTest">
         <methods>
-          <include name="test2"/>
+          <include name="test4"/>
           <include name="test3"/>
         </methods>
       </class> <!-- listeners.TestNGListenersTest -->

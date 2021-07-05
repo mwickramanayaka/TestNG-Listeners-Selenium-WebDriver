@@ -6,17 +6,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="listeners.TestNGListenersTest2">
-        <methods>
-          <include name="test6"/>
-        </methods>
-      </class> <!-- listeners.TestNGListenersTest2 -->
       <class name="listeners.TestNGListenersTest">
         <methods>
-          <include name="test2"/>
+          <include name="test4"/>
           <include name="test3"/>
         </methods>
       </class> <!-- listeners.TestNGListenersTest -->
+      <class name="listeners.TestNGListenersTest2">
+        <methods>
+          <include name="test7"/>
+          <include name="test8"/>
+        </methods>
+      </class> <!-- listeners.TestNGListenersTest2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
