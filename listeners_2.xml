@@ -3,7 +3,9 @@
 
 <suite name="TestNGListenerSuite">
 	
-
+	<listeners>
+		<listener class-name="listeners_2.Listeners"></listener>
+	</listeners>
 
 	<test name="LoginTest">
 		<classes>

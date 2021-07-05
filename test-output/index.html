@@ -224,6 +224,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;TestNGListenerSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners_2.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;LoginTest&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;listeners_2.LoginTest&quot;&gt;
@@ -277,11 +280,11 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test1')
 data.setCell(0, 2, 'listeners_2.LoginTest')
-data.setCell(0, 3, 17253);
+data.setCell(0, 3, 15454);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test2')
 data.setCell(1, 2, 'listeners_2.LoginTest')
-data.setCell(1, 3, 9472);
+data.setCell(1, 3, 10188);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test3')
 data.setCell(2, 2, 'listeners_2.LoginTest')
@@ -294,7 +297,7 @@ window.suiteTableData['TestNGListenerSuite']= { tableData: data, tableDiv: 'time
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-TestNGListenerSuite">
               </div> <!-- times-div-TestNGListenerSuite -->
             </div> <!-- times-div -->
@@ -327,17 +330,17 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">17262 ms</span>
+                <span class="method-start">15465 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">test3</span>
-                <span class="method-start">26739 ms</span>
+                <span class="method-start">25657 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">test4</span>
-                <span class="method-start">26745 ms</span>
+                <span class="method-start">25663 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
